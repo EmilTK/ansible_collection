@@ -1,0 +1,3 @@
+---
+filecreate_path: /tmp/example.txt
+filecreate_content: "New content file"

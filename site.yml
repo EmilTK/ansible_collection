@@ -1,0 +1,9 @@
+---
+- name: Test role and module from a collections
+  hosts: localhost
+  collections:
+    - netology.yandex_cloud_elk
+  tasks:
+    - name: Import role from a collections
+      import_role:
+        name: createfile_role
